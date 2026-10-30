@@ -159,7 +159,7 @@
       <h1>EVERYBODYSIM</h1>
       <p>ayyy is the new look tuff? totally didnt ask ai</p>
       <div class="address">
-        <span id="url">https://everybodysim.github.io/</span>
+        <span id="url">https://everybodytesting.github.io/</span>
         <button id="copy" type="button">Copy link</button>
       </div>
       <div class="hint">Got blocked? Bookmark this new address with <kbd>Ctrl</kbd> + <kbd>D</kbd> so you don't lose it.</div>
@@ -190,11 +190,11 @@
   <script>
     /* Add a game by adding a line here. image: "" shows a text card instead. */
     const GAMES = [
-      { title: "Racing Game",       tag: "",    link: "https://everybodysim.github.io/Racing-game",        image: "icon-512.png" },
-      { title: "Stair Shove",       tag: "",     link: "https://everybodysim.github.io/stair-shove",        image: "stairshove.png" },
-      { title: "Polytrack 6",       tag: "",    link: "https://everybodysim.github.io/polytrack6",         image: "polytrack.png" },
-      { title: "Sandboxels Modded", tag: "",   link: "https://everybodysim.github.io/sandboxels-modded", image: "sandboxels.png" },
-      { title: "Minecraft 26.2",       tag: "",   link: "https://everybodysim.github.io/eaglercraft",       image: "eaglercraft.png" }
+      { title: "Racing Game",       tag: "",    link: "https://everybodytesting.github.io/skidcircuit",        image: "icon-512.png" },
+      { title: "Stair Shove",       tag: "",     link: "https://everybodytesting.github.io/stair-shove",        image: "stairshove.png" },
+      { title: "Polytrack 6",       tag: "",    link: "https://everybodytesting.github.io/polytrack6",         image: "track.png" },
+      { title: "Sandboxels (Modded)", tag: "",   link: "https://everybodytesting.github.io/sandboxels-modded", image: "sand.png" },
+      { title: "Minecraft 26.2",       tag: "",   link: "https://everybodytesting.github.io/craft",       image: "craft.png" }
     ];
 
     const grid = document.getElementById("grid");
@@ -266,7 +266,7 @@
     /* Copy link */
     const btn = document.getElementById("copy");
     btn.addEventListener("click", async () => {
-      try { await navigator.clipboard.writeText("https://everybodysim.github.io/"); btn.textContent = "Copied"; }
+      try { await navigator.clipboard.writeText("https://everybodytesting.github.io/"); btn.textContent = "Copied"; }
       catch { btn.textContent = "Press Ctrl+C"; }
       setTimeout(() => btn.textContent = "Copy link", 1600);
     });
